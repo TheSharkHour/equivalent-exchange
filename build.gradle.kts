@@ -84,6 +84,11 @@ dependencies {
 	modImplementation("net.danygames2014:modmenu:${project.properties["modmenu_version"]}")
 	// https://github.com/Glass-Series/Always-More-Items
 	modImplementation("net.glasslauncher.mods:AlwaysMoreItems:${project.properties["alwaysmoreitems_version"]}")
+
+
+	modImplementation("maven.modrinth:bh-creative:${project.properties["bhcreative_version"]}")
+
+	modRuntimeOnly ("maven.modrinth:fast-stapi-intro:2.0.0")
 }
 
 configurations.all {

@@ -20,7 +20,7 @@
   "environment": "*",
   "entrypoints": {
     "stationapi:event_bus": [
-      "com.shark.ee.EquivalentExchangeCore"
+      "com.shark.ee.EquivalentExchange"
     ],
     "stationapi:event_bus_client": [
     ],

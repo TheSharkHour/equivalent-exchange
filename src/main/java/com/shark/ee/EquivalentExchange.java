@@ -4,7 +4,7 @@ import net.modificationstation.stationapi.api.mod.entrypoint.Entrypoint;
 import net.modificationstation.stationapi.api.util.Namespace;
 import org.apache.logging.log4j.Logger;
 
-public class EquivalentExchangeCore
+public class EquivalentExchange
 {
 	@Entrypoint.Namespace
 	public static Namespace NAMESPACE;
