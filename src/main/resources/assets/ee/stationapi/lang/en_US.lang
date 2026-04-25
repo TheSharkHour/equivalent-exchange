@@ -1,1 +1,6 @@
-# @ is a shorthand for the current mod id, which is ee. E.g: tile.@.redclay.name
+# Items
+item.ee.low_covalence_dust.name=Low Covalence Dust
+item.ee.medium_covalence_dust.name=Medium Covalence Dust
+item.ee.high_covalence_dust.name=High Covalence Dust
+
+item.ee.philosophers_stone.name=Philosopher's Stone

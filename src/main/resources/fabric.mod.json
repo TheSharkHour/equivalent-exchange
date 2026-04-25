@@ -10,8 +10,8 @@
     "TheSharkHour (Rewrite)"
   ],
   "contact": {
-    "homepage": "https://glass-launcher.net/",
-    "sources": "https://github.com/calmilamsy/stationapi-example-mod"
+    "homepage": "https://github.com/TheSharkHour",
+    "sources": "https://github.com/TheSharkHour/equivalent-exchange"
   },
 
   "license": "CC0-1.0",
@@ -19,8 +19,13 @@
 
   "environment": "*",
   "entrypoints": {
-    "stationapi:event_bus": [
+    "main": [
       "com.shark.ee.EquivalentExchange"
+    ],
+    "stationapi:event_bus": [
+      "com.shark.ee.EquivalentExchange",
+      "com.shark.ee.event.ItemListener",
+      "com.shark.ee.event.RecipeListener"
     ],
     "stationapi:event_bus_client": [
     ],
